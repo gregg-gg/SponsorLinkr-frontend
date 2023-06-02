@@ -1,10 +1,16 @@
 import "./App.css";
+import Login from "./components/Login";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">SponsorLinkr</h1>
-    </>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/new" element={<Login />} />
+      </Routes>
+    </div>
   );
 }
 
