@@ -15,7 +15,15 @@
 }
 
 .premium{
-    /* border: 2px solid white; */
+    background: linear-gradient(180deg, #000000 0%, #121212 100%) !important;
+    border: 2px solid #7B7B7B;
     align-items: center;
     display: flex;
+    border-radius: 20px;
+}
+
+.premiumInner{
+    max-width: max-content;
+    display: flex;
+    padding-left: 5%;
 }

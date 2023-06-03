@@ -196,19 +196,19 @@ const Dashboard = () => {
           background:
             "linear-gradient(180deg, rgba(189, 221, 233, 0.88) 0%, #AFCFC2 59.17%, rgba(199, 227, 211, 0.83) 80.24%, rgba(199, 227, 208, 0.87) 100%)",
         }}
-        className="w-[290px] h-screen"
+        className="w-[18.5vw] h-screen"
       >
         <div className="font-bold text-3xl m-8">Good Evening, Anurag!</div>
         <div
           style={{
             background: " linear-gradient(180deg, #000000 0%, #121212 100%)",
           }}
-          className="box-border	w-[300px] h-[91px] rounded-lg ml-[-2%] premium"
+          className="box-border	w-[19.5vw] h-[13vh] ml-[-2.5%] premium"
         >
           <span className=" text-white font-semibold text-2xl premiumInner">
             {" "}
             <img src="../../crown.svg" />
-            <span className="mx-10">Premium!</span>
+            <span className="mx-5">Premium!</span>
           </span>
         </div>
         <div className="text-black font-semibold flex m-4 text-xl">
