@@ -17,7 +17,7 @@ const Card = ({ companyData }) => {
       >
         <div className="h-40 w-40 flex justify-center">
           <img
-            src={`../../public/${companyData.imageName}.svg`}
+            src={`../../${companyData.imageName}.svg`}
             alt="amantya"
           ></img>
         </div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Card from "./Card";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   const companyData = [
@@ -103,7 +104,7 @@ const Dashboard = () => {
           background:
             "linear-gradient(180deg, rgba(189, 221, 233, 0.88) 0%, #AFCFC2 59.17%, rgba(199, 227, 211, 0.83) 80.24%, rgba(199, 227, 208, 0.87) 100%)",
         }}
-        className="w-[290px] h-[100vh] "
+        className="w-[290px] h-screen"
       >
         <div className="font-bold text-3xl m-8">Good Evening, Anurag!</div>
         <div
@@ -268,20 +269,22 @@ const Dashboard = () => {
             <option value="NGO">NGO</option>
           </select>
           <div className="mx-4 mt-1">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-8 h-8"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-            />
-          </svg>
+            <Link to="/search">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-8 h-8"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </Link>
           </div>
         </div>
         <div className="text-white leading-6 text-3xl mx-10 my-8">
