@@ -22,6 +22,10 @@
     border-radius: 20px;
 }
 
+.premium:hover{
+    cursor: pointer;
+}
+
 .premiumInner{
     max-width: max-content;
     display: flex;
@@ -37,6 +41,10 @@
     padding-left: 3%;
     gap: 3%;
     align-items: center;
+}
+
+.stats:hover{
+    cursor: pointer;
 }
 
 .statsIcon{
