@@ -1,0 +1,27 @@
+.nav{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3% 9% 4% 0;
+}
+
+.navBottom{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7vh;
+}
+
+.premium{
+    /* border: 2px solid white; */
+    align-items: center;
+    display: flex;
+}
+
+.premiumInner{
+    /* border: 2px solid red; */
+    padding-left: 5%;
+    display: flex;
+}
