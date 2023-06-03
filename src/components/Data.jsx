@@ -111,10 +111,16 @@ const Data = () => {
             BackgroundClip: "text",
             TextFillColor: "transparent",
           }}
-          className="text-7xl font-bold m-20 mx-80 leading-normal"
+          className="text-7xl font-bold mx-80 leading-normal sponsorLinkr"
         >
           SponsorLinkr
         </h1>
+
+        <h2 className="subHeading">
+          Oh hey! We found a few <span>Sponsors</span> for your Hackathon! Good
+          Luck!
+        </h2>
+
         <div className="flex flex-wrap profiles">
           {mainData.map((data) => {
             return <DataCard data={data} key={data.id} />;

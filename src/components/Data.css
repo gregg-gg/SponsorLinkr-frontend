@@ -1,5 +1,7 @@
 .parent{
-    /* background-color: blue !important; */
+    background-image: url("../../bgData.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .parent1{
@@ -8,9 +10,25 @@
     padding-top: 5vh;
 }
 
+.sponsorLinkr{
+    text-align: center;
+}
+
 .profiles{
     /* background-color: red !important; */
     /* width: 90vw; */
+}
+
+.subHeading{
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 5rem;
+}
+
+.subHeading span{
+    font-weight: 700 !important;
+    color: #BCDEE9;
 }
 
 .box{
