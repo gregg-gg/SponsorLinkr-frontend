@@ -5,7 +5,7 @@ const Data = () => {
   const mainData = [
     {
       id: 1,
-      name: "Harshal",
+      name: "Harshal Ranjhani",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
       designation: "Sr Developer",
@@ -87,20 +87,21 @@ const Data = () => {
       linkedInAddress: "uiagduyg",
       designation: "Sr Developer",
     },
-      {
-        id: 1,
-        name: "Harshal",
-        company: "Alphabet.INC",
-        linkedInAddress: "uiagduyg",
-        designation: "Sr Developer",
-      },
+    {
+      id: 1,
+      name: "Harshal",
+      company: "Alphabet.INC",
+      linkedInAddress: "uiagduyg",
+      designation: "Sr Developer",
+    },
   ];
+
   return (
-    <div className="flex">
-      <div className="fixed">
+    <div className="flex parent">
+      <div className="parent1">
         <Sidebar />
       </div>
-      <div style={{ zIndex: 10, marginLeft: "3.5vw" }}>
+      <div style={{ zIndex: 10, marginLeft: "5vw" }}>
         <h1
           style={{
             background:
@@ -110,11 +111,11 @@ const Data = () => {
             BackgroundClip: "text",
             TextFillColor: "transparent",
           }}
-          className="text-7xl font-bold leading-10 h-[66px] w-[467px] m-20 mx-80"
+          className="text-7xl font-bold m-20 mx-80 leading-normal"
         >
           SponsorLinkr
         </h1>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap profiles">
           {mainData.map((data) => {
             return <DataCard data={data} key={data.id} />;
           })}
