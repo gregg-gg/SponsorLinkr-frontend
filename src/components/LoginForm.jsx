@@ -51,7 +51,7 @@ const LoginForm = () => {
         }}
         className="rounded-lg mt-8 text-2xl w-[562px] h-[45px] text-white"
       >
-        <Link to="/dashbaord">Log In with LinkedIn</Link>
+        <Link to="/app">Log In with LinkedIn</Link>
       </button>
     </div>
   );

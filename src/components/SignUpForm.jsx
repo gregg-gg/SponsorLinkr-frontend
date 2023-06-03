@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SignUpForm = () => {
   return (
     <div className="m-10">
@@ -79,7 +81,7 @@ const SignUpForm = () => {
         }}
         className="rounded-lg mt-8 text-2xl w-[562px] h-[45px] text-white"
       >
-        Log In with LinkedIn
+        <Link to="/app">Log In with LinkedIn</Link>
       </button>
     </div>
   );
