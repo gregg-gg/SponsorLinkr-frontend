@@ -28,7 +28,7 @@ const Home = () => {
           SponsorLinkr
         </h1>
         <p className="text-white font-bold text-2xl my-8">
-          Your One Stop Solution to find sponsor for your event
+          Your One Stop Solution to find sponsors for your event
         </p>
       </div>
       <div>
