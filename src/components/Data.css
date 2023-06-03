@@ -1,0 +1,65 @@
+.parent{
+    /* background-color: blue !important; */
+}
+
+.parent1{
+    /* background-color: green !important; */
+    position: fixed;
+    padding-top: 5vh;
+}
+
+.profiles{
+    /* background-color: red !important; */
+    /* width: 90vw; */
+}
+
+.box{
+    border: 1px solid #DCDCDC;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1.5rem;
+}
+
+.name{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name h1{
+    color: #97AAB1;
+    font-weight: 700 !important;
+    font-size: 1.75rem !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentP{
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content{
+    /* border: 1px solid white; */
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3{
+    color: #7B7B7B;
+    font-size: 1.15rem !important;
+    line-height: 1rem;
+}
+
+.content h2{
+    font-size: 1.25rem !important;
+    display: flex;
+    justify-content: space-between;
+}
