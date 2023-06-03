@@ -1,9 +1,6 @@
-import { useState } from "react";
-import SignUpForm from "./SignUpForm";
 import LoginForm from "./LoginForm";
 
 const Login = () => {
-  const [isSigningUp, setIsSigningUp] = useState(true);
   return (
     <>
       <h1
@@ -32,9 +29,7 @@ const Login = () => {
           className="ml-40 my-10 rounded-tl-xl rounded-bl-xl"
         >
           <h1 className="flex justify-center items-center text-3xl font-bold mt-60 mx-4">
-            {isSigningUp
-              ? "All journeys begin with a Sign up"
-              : "Oh to be at the right place, at the right time!"}
+            Oh to be at the right place, at the right time!
           </h1>
         </div>
         <div
@@ -73,10 +68,9 @@ const Login = () => {
               Welcome,
             </div>
             <div className="text-white mx-10 my-[-3%]">
-              Please enter your details below to sign{" "}
-              {isSigningUp ? "up" : "in"}.
+              Please enter your details below to sign in
             </div>
-            {isSigningUp ? <SignUpForm /> : <LoginForm />}
+            <LoginForm />
           </div>
         </div>
       </div>
