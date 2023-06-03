@@ -23,7 +23,7 @@ const Home = () => {
             BackgroundClip: "text",
             TextFillColor: "transparent",
           }}
-          className="text-7xl font-bold leading-normal h-[66px] w-[467px]"
+          className="text-7xl font-bold leading-normal my-[-4%] mt-[-7%]"
         >
           SponsorLinkr
         </h1>
@@ -32,15 +32,17 @@ const Home = () => {
         </p>
       </div>
       <div>
-        <button
-          style={{
-            background:
-              "linear-gradient(89.98deg, rgba(189, 221, 233, 0.82) 0.01%, rgba(206, 242, 228, 0.82) 99.98%)",
-          }}
-          className="rounded-lg mt-80 text-3xl font-bold w-[427px] h-[90px]"
-        >
-          <Link to="/new">Get Started</Link>
-        </button>
+        <Link to="/new">
+          <button
+            style={{
+              background:
+                "linear-gradient(89.98deg, rgba(189, 221, 233, 0.82) 0.01%, rgba(206, 242, 228, 0.82) 99.98%)",
+            }}
+            className="rounded-lg mt-80 text-3xl font-bold w-[427px] h-[90px]"
+          >
+            Get Started
+          </button>
+        </Link>
       </div>
     </div>
   );

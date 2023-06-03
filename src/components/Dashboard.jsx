@@ -118,7 +118,7 @@ const Dashboard = () => {
             BackgroundClip: "text",
             TextFillColor: "transparent",
           }}
-          className="text-7xl font-bold leading-normal h-[66px] w-[467px] m-auto mt-10"
+          className="text-7xl font-bold leading-normal m-auto mt-10 sponsorLinkr"
         >
           SponsorLinkr
         </h1>
