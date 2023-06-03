@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LoginForm = () => {
 
   const linkedInLogin = async () => {
@@ -9,6 +11,7 @@ const LoginForm = () => {
   return (
     <div className="m-10">
 
+      <Link to="/app">
       <button
         style={{
           background:
@@ -16,10 +19,11 @@ const LoginForm = () => {
           border: "1px solid #97AAB1",
         }}
         className="rounded-lg mt-8 text-2xl w-[562px] h-[45px] text-white"
-        onClick={linkedInLogin}
+        // onClick={linkedInLogin}
       >
         Log In with LinkedIn
       </button>
+      </Link>
     </div>
   );
 };

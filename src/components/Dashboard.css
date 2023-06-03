@@ -19,9 +19,3 @@
     align-items: center;
     display: flex;
 }
-
-.premiumInner{
-    /* border: 2px solid red; */
-    padding-left: 5%;
-    display: flex;
-}
