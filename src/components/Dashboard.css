@@ -27,3 +27,19 @@
     display: flex;
     padding-left: 5%;
 }
+
+.stats{
+    height: 10vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-left: 3%;
+    gap: 3%;
+    align-items: center;
+}
+
+.statsIcon{
+    vertical-align: middle;
+    /* border: 1px solid black; */
+}

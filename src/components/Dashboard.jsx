@@ -2,7 +2,7 @@ import "./Dashboard.css";
 import { useState } from "react";
 import Card from "./Card";
 import { Link } from "react-router-dom";
-import Sidebar from "./Sidebar"
+import Sidebar from "./Sidebar";
 
 const Dashboard = () => {
   const companyData = [
@@ -46,14 +46,14 @@ const Dashboard = () => {
             <span className="mx-5">Premium!</span>
           </span>
         </div>
-        <div className="text-black font-semibold flex m-4 text-xl">
+        <div className="text-black font-semibold text-xl stats">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="w-10 h-10 statsIcon"
           >
             <path
               strokeLinecap="round"
@@ -61,17 +61,17 @@ const Dashboard = () => {
               d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3"
             />
           </svg>
-          <span className="mx-8">Previous searches</span>
+          <span className="mx-5">Previous searches</span>
         </div>
-        <div className="flex text-black font-semibold flex m-4 mt-10">
-          <div className="text-black font-semibold flex m-4 text-xl">
+        <div className="text-black font-semibold stats">
+          <div className="text-black font-semibold text-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-10 h-10"
+              className="w-10 h-10 statsIcon"
             >
               <path
                 strokeLinecap="round"
@@ -85,15 +85,15 @@ const Dashboard = () => {
             <p className="text-xs">credits used till date</p>
           </div>
         </div>
-        <div className="flex text-black font-semibold m-4 mt-10">
-          <div className="text-black font-semibold flex m-4 text-xl">
+        <div className="text-black font-semibold stats">
+          <div className="text-black font-semibold text-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-10 h-10 statsIcon"
             >
               <path
                 strokeLinecap="round"
