@@ -183,7 +183,7 @@ const Dashboard = () => {
             <option value="NGO">NGO</option>
           </select>
           <div className="mx-4 mt-1">
-            <Link to="/search">
+            <Link to="/data">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

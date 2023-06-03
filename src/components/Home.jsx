@@ -6,7 +6,7 @@ const Home = () => {
       style={{
         height: "100vh",
         backgroundImage: `url(
-          "../../public/BG.svg"
+          "../../BG.svg"
         )`,
         backgroundSize: "cover",
         backgroundPosition: "center",
