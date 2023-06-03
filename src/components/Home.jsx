@@ -23,7 +23,7 @@ const Home = () => {
             BackgroundClip: "text",
             TextFillColor: "transparent",
           }}
-          className="text-7xl font-bold leading-10 h-[66px] w-[467px]"
+          className="text-7xl font-bold leading-normal h-[66px] w-[467px]"
         >
           SponsorLinkr
         </h1>
