@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
 const Card = ({ companyData }) => {
-  console.log(companyData);
-  console.log(`../../public/${companyData.imageName}.svg`);
   return (
     <Link>
       <div
