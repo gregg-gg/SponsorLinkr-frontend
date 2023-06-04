@@ -10,7 +10,7 @@ const DataCard = ({ data }) => {
           width: "25vw",
           height: "32vh",
           background:
-            "url(.png), linear-gradient(180deg, rgba(167, 195, 202, 0.3) 0%, rgba(171, 198, 183, 0.1) 100%)",
+            "url(.png), linearGradient(180deg, rgba(167, 195, 202, 0.21) 0%, rgba(171, 198, 183, 0.08) 100%)",
           backgroundBlendMode: "overlay",
         }}
         className="text-white m-10 box"

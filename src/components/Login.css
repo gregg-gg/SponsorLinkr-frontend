@@ -1,0 +1,9 @@
+.headDiv{
+    border: 1px solid grey !important;
+    max-width: max-content !important;
+    padding: 0 !important;
+    width: 90vw;
+    height: fit-content;
+    margin: auto;
+    border-radius: 13px;
+}

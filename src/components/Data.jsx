@@ -111,7 +111,7 @@ const Data = () => {
             BackgroundClip: "text",
             TextFillColor: "transparent",
           }}
-          className="text-7xl font-bold mx-80 leading-normal sponsorLinkr"
+          className="text-7xl font-bold mx-80 my-2 leading-normal sponsorLinkr"
         >
           SponsorLinkr
         </h1>

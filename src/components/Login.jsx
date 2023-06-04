@@ -1,4 +1,5 @@
 import LoginForm from "./LoginForm";
+import "./Login.css";
 
 const Login = () => {
   return (
@@ -16,19 +17,19 @@ const Login = () => {
       >
         SponsorLinkr
       </h1>
-      <div className="flex">
+      <div className="flex headDiv">
         <div
           style={{
             background:
               "linear-gradient(180deg, rgba(189, 221, 233, 0.93) 0%, #C7E3D0 100%)",
-            top: "137px",
-            left: "292px",
-            width: "45vw",
+            // top: "137px",
+            // left: "292px",
+            width: "35vw",
             height: "80vh",
           }}
-          className="ml-40 my-10 rounded-tl-xl rounded-bl-xl"
+          className="rounded-tl-xl rounded-bl-xl"
         >
-          <h1 className="flex justify-center items-center text-3xl font-bold mt-60 mx-4">
+          <h1 className="flex justify-center items-center text-3xl font-bold mt-60 mx-6">
             Oh to be at the right place, at the right time!
           </h1>
         </div>
@@ -37,13 +38,9 @@ const Login = () => {
             //   background:
             //     "linear-gradient(180deg, #000000 0%, rgba(89, 89, 89, 0) 100%);",
             background:
-              "linear-gradient(180deg, #000000 0%, rgba(89, 89, 89, 0) 100%);",
-            top: "137px",
-            left: "292px",
-            width: "658px",
-            height: "563px",
+              "linear-gradient(180deg, #000000 0%, rgba(89, 89, 89, 0) 100%)",
           }}
-          className="mr-40 my-10 rounded-tr-xl rounded-br-xl"
+          className="my-10 rounded-tr-xl rounded-br-xl"
         >
           {/* parent for the content */}
           <div>
@@ -54,14 +51,6 @@ const Login = () => {
                 }}
               >
                 Login
-              </button>
-              <p className="mx-2">|</p>
-              <button
-                onClick={() => {
-                  setIsSigningUp(true);
-                }}
-              >
-                Sign up
               </button>
             </div>
             <div className="text-[#97AAB1] font-bold leading-7 text-3xl m-10">
