@@ -30,7 +30,7 @@ const DataCard = ({ data }) => {
             <div className="content">
               <h3>Designation:</h3>
               <h2>
-                {`${data.designation}`} <img src="../../manIcon.svg" />
+                {`${data.job_title}`} <img src="../../manIcon.svg" />
               </h2>
             </div>
           </div>

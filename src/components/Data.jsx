@@ -1,106 +1,38 @@
+import { useEffect, useState } from "react";
 import DataCard from "./DataCard";
 import Sidebar from "./Sidebar";
 
 const Data = () => {
-  const mainData = [
-    {
-      id: 1,
-      name: "Harshal Ranjhani",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-    {
-      id: 1,
-      name: "Harshal",
-      company: "Alphabet.INC",
-      linkedInAddress: "uiagduyg",
-      job_title: "Sr Developer",
-    },
-  ];
+  const [pocs,setPocs] = useState([])
+
+  const getData = async () => {
+    const url = "http://localhost:8000/api/core/events/1/pocs/"
+    try{
+      console.log("hello")
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: 'Token ' + "0af5ce179882f527cab7ae50799253eaafaae02a",
+        },
+        })
+      const data = await response.json()
+      setPocs(data)
+      console.log(data)
+    } catch(error){
+      console.log(error)
+    }
+  }
+  getData()
+   // useEffect(()=>{
+  //   getData()
+  // }
 
   return (
     <div className="flex parent">
-      {/* <div className="parent1">
+      <div className="parent1">
         <Sidebar />
-      </div> */}
+      </div>
       <div style={{ zIndex: 10, marginLeft: "5vw" }}>
         <h1
           style={{
@@ -111,7 +43,7 @@ const Data = () => {
             BackgroundClip: "text",
             TextFillColor: "transparent",
           }}
-          className="text-7xl font-bold mx-80 my-2 leading-normal sponsorLinkr"
+          className="text-7xl font-bold mx-80 leading-normal sponsorLinkr"
         >
           SponsorLinkr
         </h1>
@@ -122,7 +54,13 @@ const Data = () => {
         </h2>
 
         <div className="flex flex-wrap profiles">
-          {mainData.map((data) => {
+          {pocs.map((data) => {
+            if ((data.name === "") || (data.name === "LinkedIn Member")) {
+              return
+            }
+            let name = data.name.split("\n")
+            console.log(name)
+            data.name = name[0]
             return <DataCard data={data} key={data.id} />;
           })}
         </div>

@@ -4,7 +4,7 @@ const authSlice = createSlice({
   name: "auth",
   initialState: {
     accessToken:
-      JSON.parse(localStorage.getItem("userAccess"))?.accessToken || "",
+      JSON.parse(localStorage.getItem("token"))?.accessToken || "",
   },
   reducers: {
     setToken(state, action) {
