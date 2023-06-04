@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./Home.css";
 const Home = () => {
   return (
     <div
@@ -33,13 +34,7 @@ const Home = () => {
       </div>
       <div>
         <Link to="/new">
-          <button
-            style={{
-              background:
-                "linear-gradient(89.98deg, rgba(189, 221, 233, 0.82) 0.01%, rgba(206, 242, 228, 0.82) 99.98%)",
-            }}
-            className="rounded-lg mt-80 text-3xl font-bold w-[427px] h-[90px]"
-          >
+          <button className="mt-80 text-3xl font-bold getStarted">
             Get Started
           </button>
         </Link>

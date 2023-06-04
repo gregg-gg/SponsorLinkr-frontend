@@ -8,99 +8,99 @@ const Data = () => {
       name: "Harshal Ranjhani",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
     {
       id: 1,
       name: "Harshal",
       company: "Alphabet.INC",
       linkedInAddress: "uiagduyg",
-      designation: "Sr Developer",
+      job_title: "Sr Developer",
     },
   ];
 
   return (
     <div className="flex parent">
-      <div className="parent1">
+      {/* <div className="parent1">
         <Sidebar />
-      </div>
+      </div> */}
       <div style={{ zIndex: 10, marginLeft: "5vw" }}>
         <h1
           style={{

@@ -1,3 +1,9 @@
+.bgImg{
+    background-image: url("../../bgData.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
 .nav{
     display: flex ;
     flex-direction: column;
@@ -32,6 +38,16 @@
     padding-left: 5%;
 }
 
+.searches{
+    background: url(.png), linear-gradient(180deg, rgba(167, 195, 202, 0.3) 0%, rgba(171, 198, 183, 0.1) 100%);
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(9px);
+    height: 5rem;
+    width: fit-content;
+    border-radius: 15px;
+}
+
 .stats{
     height: 10vh;
     /* border: 1px solid red; */
@@ -50,4 +66,13 @@
 .statsIcon{
     vertical-align: middle;
     /* border: 1px solid black; */
+}
+
+.search{
+    border-color: red !important;
+    margin-left: 0.5rem;
+    border-radius: 100%;
+    padding: 1% 1.2%;
+    background: linear-gradient(89.98deg, rgba(189, 221, 233, 0.82) 0.01%, rgba(206, 242, 228, 0.82) 99.98%);
+    box-shadow: 0px 0px 13px #BDDDE9;
 }

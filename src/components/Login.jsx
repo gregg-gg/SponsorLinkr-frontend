@@ -12,7 +12,7 @@ const Login = () => {
           BackgroundClip: "text",
           TextFillColor: "transparent",
         }}
-        className="text-7xl font-bold leading-10 h-[66px] w-[467px] m-auto mt-10"
+        className="text-7xl font-bold leading-normal m-auto sponsorLinkr"
       >
         SponsorLinkr
       </h1>
@@ -23,8 +23,8 @@ const Login = () => {
               "linear-gradient(180deg, rgba(189, 221, 233, 0.93) 0%, #C7E3D0 100%)",
             top: "137px",
             left: "292px",
-            width: "658px",
-            height: "563px",
+            width: "45vw",
+            height: "80vh",
           }}
           className="ml-40 my-10 rounded-tl-xl rounded-bl-xl"
         >
